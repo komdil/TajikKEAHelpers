@@ -10,8 +10,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>..\Output\WordTool</OutputPath>
   </PropertyGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\TajikKEAJsonContext\TajikKEAJsonContext.csproj" />
-    <ProjectReference Include="..\TajikKEA\TajikKEA.csproj" />
+    <PackageReference Include="TajikKEA" Version="1.0.0" />
+    <PackageReference Include="TajikKEAJsonContext" Version="1.0.1" />
   </ItemGroup>
 </Project>

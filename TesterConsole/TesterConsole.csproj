@@ -11,8 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TajikKEAJsonContext\TajikKEAJsonContext.csproj" />
-    <ProjectReference Include="..\TajikKEA\TajikKEA.csproj" />
+    <PackageReference Include="TajikKEA" Version="1.0.0" />
+    <PackageReference Include="TajikKEAJsonContext" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TajikKEAHelper\TajikKEAHelper.csproj" />
   </ItemGroup>
 
   <ItemGroup>
